@@ -14,7 +14,7 @@ Hosted by the [McArthur Lab](http://mcarthurbioinformatics.ca)
 * Amos Raphenya, Lead CARD Developer - Introduction of Software Engineering & RGI
 * Karyn Mukiri, MSc Student - Total Resistome Prediction
 
-### Antimicrobial Resistance
+### Antimicrobial Resistance Lab
 
 * Andrew McArthur, Associate Professor - Antimicrobial Resistance & Outbreak Analysis
 
@@ -26,7 +26,7 @@ Hosted by the [McArthur Lab](http://mcarthurbioinformatics.ca)
 * Arman Edalatmand, MSc Student - Natural Language Processing & AMR
 * Jalees Nasir, PhD Student - Genomic Surveillance of Viruses
 
-### Monkeypox
+### Monkeypox Lab
 
 * Andrew McArthur, Associate Professor - DNA Sequencing Technologies
 
