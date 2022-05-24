@@ -4,8 +4,6 @@
 
 Hosted by the [McArthur Lab](http://mcarthurbioinformatics.ca).
 
-[[_TOC_]]
-
 ## Day 1: Thursday 2 pm - 4 pm
 
 * Quick introductions & overview
