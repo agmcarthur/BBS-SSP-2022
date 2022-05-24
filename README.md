@@ -12,7 +12,7 @@ Hosted by the [McArthur Lab](http://mcarthurbioinformatics.ca)
 
 * Brian Alcock, Lead CARD Curator - Introduction Biocuration & CARD
 * Amos Raphenya, Lead CARD Developer - Introduction of Software Engineering & RGI
-* Karyn Mukiri, MSc Student - Total Resistome Prediction
+* Arman Edalatmand, MSc Student - Natural Language Processing & AMR
 
 ### Antimicrobial Resistance Lab
 
@@ -23,7 +23,7 @@ Hosted by the [McArthur Lab](http://mcarthurbioinformatics.ca)
 ### Introductory Talks  (10-15 minutes each)
 
 * Keaton Smith, Co-Op Student - CARD*Shark & Biocuration
-* Arman Edalatmand, MSc Student - Natural Language Processing & AMR
+* Karyn Mukiri, MSc Student - Total Resistome Prediction
 * Jalees Nasir, PhD Student - Genomic Surveillance of Viruses
 
 ### Monkeypox Lab
