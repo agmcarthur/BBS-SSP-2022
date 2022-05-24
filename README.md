@@ -22,7 +22,7 @@ Hosted by the [McArthur Lab](http://mcarthurbioinformatics.ca)
 
 ### Introductory Talks  (10-15 minutes each)
 
-* Keaton Smith, Co-Op Student - 1 Month as a CARD Biocurator
+* Keaton Smith, Co-Op Student - CARD*Shark & Biocuration
 * Arman Edalatmand, MSc Student - Natural Language Processing & AMR
 * Jalees Nasir, PhD Student - Genomic Surveillance of Viruses
 
