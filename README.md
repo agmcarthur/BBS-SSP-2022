@@ -10,7 +10,7 @@ Hosted by the [McArthur Lab](http://mcarthurbioinformatics.ca).
 
 ### Introductory Talks (10-15 minutes each)
 
-* Brian Alcock, Lead CARD Curator - Introduction Biocuration & CARD
+* Brian Alcock, Lead CARD Curator - Introduction to Biocuration & CARD
 * Amos Raphenya, Lead CARD Developer - Introduction of Software Engineering & RGI
 * Arman Edalatmand, MSc Student - Natural Language Processing & AMR
 * Andrew McArthur, Associate Professor - Antimicrobial Resistance & Outbreak Analysis
@@ -31,16 +31,16 @@ Introduction to the Comprehensive Antibiotic Resistance Database, focussing on t
 
 We are now going to analyze [45 *Salmonella enterica* genomes](/data/Salmonella_genomes) from an outbreak. These samples are from 2012, when Public Health Ontario encountered a spike in food poisoning from a number of locations in Ontario, later determined to be *Salmonella* by traditional culture methods. Each isolate had DNA extracted, sequenced, and genome assembled. 
 
-These genomes have been run through the PARSNP algorithm to catalog whole-genome SNPs (less SNP dense regions indicative of horizontal gene transfer) and these SNPs were used to generate a [phylogenetic tree](/data/Salmonella_tree). You can view the tree using the [Tree of Life Tool](https://itol.embl.de).
+These genomes have been run through the PARSNP algorithm to catalog whole-genome SNPs (removing SNP dense regions indicative of horizontal gene transfer) and these SNPs were used to generate a [phylogenetic tree](/data/Salmonella_tree/parsnp.tree). You can view the tree using the [Tree of Life Tool](https://itol.embl.de).
 
-* Question #11. Given that the reference sequence NC_011294 may be very closely related to the Ontario strains but all other reference sequences are from different MLSTs and outbreaks, is there any evidence that the Ontario samples do not reflect a single source outbreak of *Salmonella*? Think carefully about the bootstrap values.
-* Question #12. Sample 17 is a Nurse suspected of poor hand hygiene leading to infection of a number of patients (sample 14, 11, 35), including himself. Does the RAxML tree provide evidence supporting this suspicion? Is there evidence of further hospital acquired infections?
-* Question #13. Chicken burgers distributed by a local food supplier have been found to be contaminated with *Salmonella* (samples 4 & 5). Subsequently, several patients (samples 2, 7, 8, 15) known to have eaten (and possibly undercooked) these chicken burgers were additionally found to have *Salmonella* infections. Is there evidence of a single source of all these infections? Could the illness of additional patients possibly be explained by contaminated chicken burgers?
+* Question #8. Given that the reference sequence NC_011294 may be very closely related to the Ontario strains but all other reference sequences are from different MLSTs and outbreaks, is there any evidence that the Ontario samples do not reflect a single source outbreak of *Salmonella*? 
+* Question #9. Sample 17 is a Nurse suspected of poor hand hygiene leading to infection of a number of patients (sample 14, 11, 35), including himself. Does the phylogenetic tree provide evidence supporting this suspicion? Is there evidence of further hospital acquired infections?
+* Question #10. Chicken burgers distributed by a local food supplier have been found to be contaminated with *Salmonella* (samples 4 & 5). Subsequently, several patients (samples 2, 7, 8, 15) known to have eaten (and possibly undercooked) these chicken burgers were additionally found to have *Salmonella* infections. Is there evidence of a single source of all these infections? Could the illness of additional patients possibly be explained by contaminated chicken burgers?
 
-Unexpectedly, a single patient has proven abnormally resistant to antibiotics, suggesting the *Salmonella* is not the only pathogen involved, even though it is the only pathogen successfully isolated by culture. This patient has had their fecal [metagenome](/data/Salmonella_metagenome) sequenced and assembled by the McArthur lab. Use the Resistance Gene Identifier (part of http://card.mcmaster.ca) to screen these putative AMR alleles for antimicrobial resistance genes. Note: the predicted alleles may only be fragments, so use RGI's Low Quality/Coverage setting but still only look for Perfect/Strict hits.
+Unexpectedly, a single patient has proven abnormally resistant to antibiotics, suggesting the *Salmonella* is not the only pathogen involved, even though it is the only pathogen successfully isolated by culture. This patient has had their fecal [metagenome](/data/Salmonella_metagenome/metagenomics.fasta.gz) sequenced and assembled by the McArthur lab. Use the [Resistance Gene Identifier](https://card.mcmaster.ca/analyze/rgi) to screen these putative AMR alleles for antimicrobial resistance genes. Note: the predicted alleles may only be fragments, so use RGI's Low Quality/Coverage setting but still only look for Perfect/Strict hits.
 
-* Question #14. For the single patient that is abnormally resistant to antibiotics, does the metagenomics analysis concur that resistance to drugs beyond trimethoprim or fluoroquinolones exists in this microbiome? Which additional drug classes may not work against this microbiome?
-* Question #15. Clinical treatment of this patient illustrated failure of macrolide antibiotics. What AMR genes are possibly causing this resistance and what is the mechanism? Can you make a prediction of which pathogen beyond *Salmonella* could be infecting this patient?
+* Question #11. For the single patient that is abnormally resistant to antibiotics, does the metagenomics analysis concur that resistance to drugs beyond trimethoprim or fluoroquinolones exists in this microbiome? Which additional drug classes may not work against this microbiome?
+* Question #12. Clinical treatment of this patient illustrated failure of macrolide antibiotics. What AMR genes are possibly causing this resistance and what is the mechanism? Can you make a prediction of which pathogen beyond *Salmonella* could be infecting this patient?
 
 ## Day 2: Friday 10 am - 12 pm
 
