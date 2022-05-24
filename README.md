@@ -17,7 +17,7 @@ Hosted by the [McArthur Lab](http://mcarthurbioinformatics.ca)
 
 ### Comprehensive Antibiotic Resistance Database
 
-Introduction to the Comprehensive Antibiotic Resistance Database, focussing on the in house development version, http://card.mcmaster.ca. At the heart of the CARD is the Antibiotic Resistance Ontology (ARO). After a brief demo, we will work through the following questions & problems:
+Introduction to the Comprehensive Antibiotic Resistance Database, focussing on the current public version, http://card.mcmaster.ca. At the heart of the CARD is the Antibiotic Resistance Ontology (ARO). After a brief demo, we will work through the following questions & problems:
 
 * Question #1. Browsing from the CARD home page, what are the seven major branches of the ARO?
 * Question #2. How many major drug classes are represented in the ARO? Drill down to examine the information for the antibiotic *fosfomycin*.
