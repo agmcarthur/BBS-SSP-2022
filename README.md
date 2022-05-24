@@ -53,7 +53,7 @@ Unexpectedly, a single patient has proven abnormally resistant to antibiotics, s
 
 ### Monkeypox Lab
 
-As has been in the news these last few weeks, there has been a global outbreak of Monkeypox. See the BBC: [What is monkeypox and how do you catch it?](https://www.bbc.com/news/health-45665821)) and WHO: [Multi-country monkeypox outbreak in non-endemic countries](https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON385). 
+As has been in the news these last few weeks, there has been a global outbreak of Monkeypox. See the BBC: [What is monkeypox and how do you catch it?](https://www.bbc.com/news/health-45665821) and WHO: [Multi-country monkeypox outbreak in non-endemic countries](https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON385). 
 
 While originally named due to its discovery in research primates, Monkeypox is a zoonotic spillover virus thought to normally exist in rodents that causes periodic outbreaks in central and west African countries. There are two main strains of virus - west African and central African, with the former causing milder symptoms. Current contact tracing and milder symptoms suggests the current outbreak is from west Africa. In 2018-2019 there was a global outbreak with origins in Nigeria and the genome sequence of this strain is available: [Monkeypox virus strain Israel_2018, complete genome](https://www.ncbi.nlm.nih.gov/nuccore/MN648051.1/).
 
