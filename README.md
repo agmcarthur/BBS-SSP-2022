@@ -53,4 +53,21 @@ Unexpectedly, a single patient has proven abnormally resistant to antibiotics, s
 
 ### Monkeypox Lab
 
+As has been in the news these last few weeks, the has been a global outbreak of Monkeypox. See the BBC: [What is monkeypox and how do you catch it?](https://www.bbc.com/news/health-45665821)) and WHO: [Multi-country monkeypox outbreak in non-endemic countries](https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON385). 
+
+While originally named due to its discovery in research primates, Monkeypox is a zoonotic spillover virus thought to normally exist in rodents that causes periodic outbreaks in central and west African countries. There are two main strains of virus - west African and central African, with the former causing milder symptoms. Current contact tracing and milder symptoms suggests the current outbreak is from west Africa. In 2018-2019 there was an global outbreak with origins in Nigeria, and the genome sequence of this strain is available: [Monkeypox virus strain Israel_2018, complete genome](https://www.ncbi.nlm.nih.gov/nuccore/MN648051.1/).
+
+In the last few days, preliminary genome sequences of the current Monkeypox outbreak have been released:
+* [First draft genome sequence of Monkeypox virus associated with the suspected multi-country outbreak, May 2022; confirmed case in Portugal](https://virological.org/t/first-draft-genome-sequence-of-monkeypox-virus-associated-with-the-suspected-multi-country-outbreak-may-2022-confirmed-case-in-portugal/799)
+* [Belgian case of Monkeypox virus linked to outbreak in Portugal](https://virological.org/t/belgian-case-of-monkeypox-virus-linked-to-outbreak-in-portugal/801)
+
+We are going to use [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) to examine these newly released genomes! BLAST (Basic Local Alignment Search Tool) is a tool to compare DNA or protein sequences. We are going to examine three questions:
+
+* Question #13. Do you think the current Portugal and Belgium isolates are closely related, i.e. is this a single source outbreak? [BLASTN 2 Sequences](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&BLAST_SPEC=blast2seq&LINK_LOC=blasttab&LAST_PAGE=blastp&BLAST_INIT=blast2seq)
+* Question #14. Are the current genomes the same as the 2018-2019 genome? Has the same strain cause another outbreak? [BLASTN 2 Sequences](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&BLAST_SPEC=blast2seq&LINK_LOC=blasttab&LAST_PAGE=blastp&BLAST_INIT=blast2seq)
+* Question #15. Do the new isolates have any changes in their encoded proteins relative to the 2018-2019 genome? [TBLASTX 2 Sequences](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=tblastx&PAGE_TYPE=BlastSearch&BLAST_SPEC=blast2seq&LINK_LOC=blasttab&LAST_PAGE=blastn&BLAST_INIT=blast2seq)
+
+
+
+
 
