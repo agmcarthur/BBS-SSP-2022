@@ -66,10 +66,9 @@ We are going to use [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) to examine
 We are going to examine three questions:
 
 * Question #13. Do you think the current Portugal and Belgium isolates are closely related, i.e. is this a single source outbreak? [BLASTN 2 Sequences](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&BLAST_SPEC=blast2seq&LINK_LOC=blasttab&LAST_PAGE=blastp&BLAST_INIT=blast2seq); view statistics; view dot plot
-* Question #14. Are the current genomes the same as the 2018-2019 genome? Has the same strain caused another outbreak? [BLASTN against Monkeypox](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome); view statistics, view graphic summary, view alignment, view distance tree of results (midpoint, radial) for both isolates 
-* Question #15. Do the new isolates have any changes in their encoded proteins relative to the 2018-2019 genome? Should be worried about a more infectious variant? [TBLASTX 2 Sequences](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=tblastx&PAGE_TYPE=BlastSearch&BLAST_SPEC=blast2seq&LINK_LOC=blasttab&LAST_PAGE=blastn&BLAST_INIT=blast2seq)
+* Question #14. Are the current genomes the same as the 2018-2019 genome? Has the same strain caused another outbreak? [BLASTN against Monkeypox](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome); view statistics, view graphic against Israel strain, view alignment, view distance tree of results (midpoint, radial) for both isolates 
+* Question #15. Do the new isolates have any changes in their encoded proteins relative to the 2018-2019 genome? Should be worried about a more infectious variant? [TBLASTX 2 Sequences](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=tblastx&PAGE_TYPE=BlastSearch&BLAST_SPEC=blast2seq&LINK_LOC=blasttab&LAST_PAGE=blastn&BLAST_INIT=blast2seq); view statistics; view dot plot
 
-
-
+Want to see a preliminary global view? See [Genomic epidemiology of monkeypox virus](https://nextstrain.org/monkeypox).
 
 
