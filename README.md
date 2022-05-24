@@ -17,7 +17,7 @@ Hosted by the [McArthur Lab](http://mcarthurbioinformatics.ca).
 
 ### Comprehensive Antibiotic Resistance Database
 
-Introduction to the Comprehensive Antibiotic Resistance Database, focussing on the current public version, http://card.mcmaster.ca. At the heart of the CARD is the Antibiotic Resistance Ontology (ARO). After a brief demo, we will work through the following questions:
+Introduction to the Comprehensive Antibiotic Resistance Database, focussing on the current public version, [card.mcmaster.ca](http://card.mcmaster.ca). At the heart of the CARD is the Antibiotic Resistance Ontology (ARO). After a brief demo, we will work through the following questions:
 
 * Question #1. Browsing from the CARD home page, what are the seven major branches of the ARO?
 * Question #2. How many major drug classes are represented in the ARO? Drill down to examine information for the antibiotic *fosfomycin*.
@@ -29,21 +29,15 @@ Introduction to the Comprehensive Antibiotic Resistance Database, focussing on t
 
 ### *Salmonella* outbreak analysis
 
-We are now going to analyze 45 *Salmonella enterica* genomes from an outbreak. These samples are from 2012, when Public Health Ontario encountered a spike in food poisoning from a number of locations in Ontario, later determined to be *Salmonella* by traditional culture methods. Each isolate had DNA extracted, sequenced, and genome assembled. There is also one metagenomic sequencing data set from a single patient, for reasons explained below.
+We are now going to analyze [45 *Salmonella enterica* genomes](/data/Salmonella_genomes) from an outbreak. These samples are from 2012, when Public Health Ontario encountered a spike in food poisoning from a number of locations in Ontario, later determined to be *Salmonella* by traditional culture methods. Each isolate had DNA extracted, sequenced, and genome assembled. 
 
-https://pathogen.watch provides molecular typing tools for a number of pathogens. While it does not have a core genome MLST (cgMLST) framework for *Salmonella enterica*, it can perform traditional MLST profiling. Upload your sequences to Pathogen Watch to examine the MLST typing.
-
-* Question #8. Are all your outbreak samples from the same known MSLT? Are any from novel or unresolved MLSTs?
-* Question #9. If some MLST are unresolved, explain why for one sample.
-* Question #10. Based on your answer to Question #1 and #2 above, is there any evidence that this is not a single source outbreak of *Salmonella*?
-
-In addition to Pathogen Watch, these genomes have been run through the PARSNP algorithm to catalog whole-genome SNPs (less SNP dense regions indicative of horizontal gene transfer). The result is a PHYLIP format file that also includes a reference sequence from the same MLST as well as the strain labels from a k-mer analysis. Perform a RAxML analysis (http://www.phylo.org) to determine fine-resolution relationships of these strains. Note: this is a nucleotide alignment, not a protein alignment, but as before include a gamma model of rate heterogeneity, a maximum likelihood search, and estimated proportion of invariable sites. See [Lab 3 Phylogenetics](../Lab_3_Phylogenetics) for a reminder. The results file to look at is *RAxML_bipartitions.result* and the results are easier to look as a cladogram (i.e. no branch lengths).
+These genomes have been run through the PARSNP algorithm to catalog whole-genome SNPs (less SNP dense regions indicative of horizontal gene transfer) and these SNPs were used to generate a [phylogenetic tree](/data/Salmonella_tree). You can view the tree using [TreeView](http://etetoolkit.org/treeview/).
 
 * Question #11. Given that the reference sequence NC_011294 may be very closely related to the Ontario strains but all other reference sequences are from different MLSTs and outbreaks, is there any evidence that the Ontario samples do not reflect a single source outbreak of *Salmonella*? Think carefully about the bootstrap values.
 * Question #12. Sample 17 is a Nurse suspected of poor hand hygiene leading to infection of a number of patients (sample 14, 11, 35), including himself. Does the RAxML tree provide evidence supporting this suspicion? Is there evidence of further hospital acquired infections?
 * Question #13. Chicken burgers distributed by a local food supplier have been found to be contaminated with *Salmonella* (samples 4 & 5). Subsequently, several patients (samples 2, 7, 8, 15) known to have eaten (and possibly undercooked) these chicken burgers were additionally found to have *Salmonella* infections. Is there evidence of a single source of all these infections? Could the illness of additional patients possibly be explained by contaminated chicken burgers?
 
-Unexpectedly, a single patient has proven abnormally resistant to antibiotics, suggesting the *Salmonella* is not the only pathogen involved, even though it is the only pathogen successfully isolated by culture. This patient has had their fecal metagenome sequenced and assembled by the McArthur lab (file *metagenomics.fasta*). Use the Resistance Gene Identifier (part of http://card.mcmaster.ca) to screen these putative AMR alleles for antimicrobial resistance genes. Note: the predicted alleles may only be fragments, so use RGI's Low Quality/Coverage setting but still only look for Perfect/Strict hits.
+Unexpectedly, a single patient has proven abnormally resistant to antibiotics, suggesting the *Salmonella* is not the only pathogen involved, even though it is the only pathogen successfully isolated by culture. This patient has had their fecal [metagenome](/data/Salmonella_metagenome) sequenced and assembled by the McArthur lab. Use the Resistance Gene Identifier (part of http://card.mcmaster.ca) to screen these putative AMR alleles for antimicrobial resistance genes. Note: the predicted alleles may only be fragments, so use RGI's Low Quality/Coverage setting but still only look for Perfect/Strict hits.
 
 * Question #14. For the single patient that is abnormally resistant to antibiotics, does the metagenomics analysis concur that resistance to drugs beyond trimethoprim or fluoroquinolones exists in this microbiome? Which additional drug classes may not work against this microbiome?
 * Question #15. Clinical treatment of this patient illustrated failure of macrolide antibiotics. What AMR genes are possibly causing this resistance and what is the mechanism? Can you make a prediction of which pathogen beyond *Salmonella* could be infecting this patient?
