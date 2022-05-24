@@ -31,7 +31,7 @@ Introduction to the Comprehensive Antibiotic Resistance Database, focussing on t
 
 We are now going to analyze [45 *Salmonella enterica* genomes](/data/Salmonella_genomes) from an outbreak. These samples are from 2012, when Public Health Ontario encountered a spike in food poisoning from a number of locations in Ontario, later determined to be *Salmonella* by traditional culture methods. Each isolate had DNA extracted, sequenced, and genome assembled. 
 
-These genomes have been run through the PARSNP algorithm to catalog whole-genome SNPs (less SNP dense regions indicative of horizontal gene transfer) and these SNPs were used to generate a [phylogenetic tree](/data/Salmonella_tree). You can view the tree using [TreeView](http://etetoolkit.org/treeview/).
+These genomes have been run through the PARSNP algorithm to catalog whole-genome SNPs (less SNP dense regions indicative of horizontal gene transfer) and these SNPs were used to generate a [phylogenetic tree](/data/Salmonella_tree). You can view the tree using the [Tree of Life Tool](https://itol.embl.de).
 
 * Question #11. Given that the reference sequence NC_011294 may be very closely related to the Ontario strains but all other reference sequences are from different MLSTs and outbreaks, is there any evidence that the Ontario samples do not reflect a single source outbreak of *Salmonella*? Think carefully about the bootstrap values.
 * Question #12. Sample 17 is a Nurse suspected of poor hand hygiene leading to infection of a number of patients (sample 14, 11, 35), including himself. Does the RAxML tree provide evidence supporting this suspicion? Is there evidence of further hospital acquired infections?
