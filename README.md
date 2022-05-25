@@ -69,6 +69,6 @@ We are going to examine three questions:
 * Question #14. Are the current genomes the same as the 2018-2019 genome? Has the same strain caused another outbreak? [BLASTN against Monkeypox](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome); view statistics, view graphic against Israel strain, view alignment, view distance tree of results (midpoint, radial) for both isolates 
 * Question #15. Do the new isolates have any changes in their encoded proteins relative to the 2018-2019 genome? Should be worried about a more infectious variant? [TBLASTX 2 Sequences](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=tblastx&PAGE_TYPE=BlastSearch&BLAST_SPEC=blast2seq&LINK_LOC=blasttab&LAST_PAGE=blastn&BLAST_INIT=blast2seq); view statistics; view dot plot
 
-Want to see a preliminary global view? See [Genomic epidemiology of monkeypox virus](https://nextstrain.org/monkeypox). This is based on [yet more sequences](Multi-country outbreak of Monkeypox virus: genetic divergence and first signs of microevolution https://virological.org/t/multi-country-outbreak-of-monkeypox-virus-genetic-divergence-and-first-signs-of-microevolution/806) being released in the last 72 hours.
+Want to see a preliminary global view? See [Genomic epidemiology of monkeypox virus](https://nextstrain.org/monkeypox). This is based on [yet more sequences](https://virological.org/t/multi-country-outbreak-of-monkeypox-virus-genetic-divergence-and-first-signs-of-microevolution/806) being released in the last 72 hours.
 
 
