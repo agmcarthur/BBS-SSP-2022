@@ -72,3 +72,4 @@ We are going to examine three questions:
 Want to see a preliminary global view? See [Genomic epidemiology of monkeypox virus](https://nextstrain.org/monkeypox). This is based on [yet more sequences](https://virological.org/t/multi-country-outbreak-of-monkeypox-virus-genetic-divergence-and-first-signs-of-microevolution/806) being released in the last 72 hours.
 
 
+
