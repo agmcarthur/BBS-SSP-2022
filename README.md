@@ -13,7 +13,7 @@ Hosted by the [McArthur Lab](http://mcarthurbioinformatics.ca).
 * Brian Alcock, Lead CARD Curator - [Introduction to Biocuration & CARD](/slides/Brian_Introduction_to_Biocuration_CARD.pdf)
 * Amos Raphenya, Lead CARD Developer - Introduction of Software Engineering & RGI
 * Arman Edalatmand, MSc Student - Natural Language Processing & AMR
-* Andrew McArthur, Associate Professor - Antimicrobial Resistance & Outbreak Analysis
+* Andrew McArthur, Associate Professor - [Introduction to Labs](/slides/Andrew_Introduction_to_Labs.pdf)
 
 ### Comprehensive Antibiotic Resistance Database
 
@@ -46,10 +46,10 @@ Unexpectedly, a single patient has proven abnormally resistant to antibiotics, s
 
 ### Introductory Talks  (10-15 minutes each)
 
-* Keaton Smith, Co-Op Student - CARD*Shark & Biocuration
+* Keaton Smith, Co-Op Student - [Biocuration](/slides/Keaton_Biocuration.pdf)
 * Karyn Mukiri, MSc Student - Total Resistome Prediction
 * Jalees Nasir, PhD Student - Genomic Surveillance of Viruses
-* Andrew McArthur, Associate Professor - DNA Sequencing Technologies
+* Andrew McArthur, Associate Professor - [DNA Sequencing Technologies](/slides/Andrew_DNA_Sequencing_Technologies.pdf)
 
 ### Monkeypox Lab
 
