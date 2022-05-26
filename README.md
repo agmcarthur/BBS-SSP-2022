@@ -11,8 +11,8 @@ Hosted by the [McArthur Lab](http://mcarthurbioinformatics.ca).
 ### Introductory Talks (10-15 minutes each)
 
 * Brian Alcock, Lead CARD Curator - [Introduction to Biocuration & CARD](/slides/Brian_Introduction_to_Biocuration_CARD.pdf)
-* Amos Raphenya, Lead CARD Developer - Introduction of Software Engineering & RGI
-* Arman Edalatmand, MSc Student - Natural Language Processing & AMR
+* Amos Raphenya, Lead CARD Developer - [Introduction of Software Engineering & RGI](/slides/Amos_Introduction_Software_Engineering_RGI.pdf)
+* Arman Edalatmand, MSc Student - [Natural Language Processing & AMR](/slides/Arman_Natural_Language_Processing_AMR.pdf)
 * Andrew McArthur, Associate Professor - [Introduction to Labs](/slides/Andrew_Introduction_to_Labs.pdf)
 
 ### Comprehensive Antibiotic Resistance Database
