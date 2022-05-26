@@ -47,8 +47,8 @@ Unexpectedly, a single patient has proven abnormally resistant to antibiotics, s
 ### Introductory Talks  (10-15 minutes each)
 
 * Keaton Smith, Co-Op Student - [Biocuration](/slides/Keaton_Biocuration.pdf)
-* Karyn Mukiri, MSc Student - Total Resistome Prediction
-* Jalees Nasir, PhD Student - Genomic Surveillance of Viruses
+* Karyn Mukiri, MSc Student - [Total Resistome Prediction](/slides/Karyn_Total_Resistome_Prediction.pdf)
+* Jalees Nasir, PhD Student - [Genomic Surveillance of Viruses](/slides/Jalees_Genomic_Surveillance_of_Viruses.pdf)
 * Andrew McArthur, Associate Professor - [DNA Sequencing Technologies](/slides/Andrew_DNA_Sequencing_Technologies.pdf)
 
 ### Monkeypox Lab
