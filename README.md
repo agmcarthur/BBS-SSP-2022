@@ -10,7 +10,7 @@ Hosted by the [McArthur Lab](http://mcarthurbioinformatics.ca).
 
 ### Introductory Talks (10-15 minutes each)
 
-* Brian Alcock, Lead CARD Curator - Introduction to Biocuration & CARD
+* Brian Alcock, Lead CARD Curator - [Introduction to Biocuration & CARD](/slides/Brian_Introduction_to_Biocuration_CARD.pdf)
 * Amos Raphenya, Lead CARD Developer - Introduction of Software Engineering & RGI
 * Arman Edalatmand, MSc Student - Natural Language Processing & AMR
 * Andrew McArthur, Associate Professor - Antimicrobial Resistance & Outbreak Analysis
